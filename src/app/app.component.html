@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <img class="logo-image" src="https://http2.mlstatic.com/storage/mshops-appearance-api/images/42/537077242/logo-2022122810140315300.png" alt="">
+        <img class="logo-image" src="https://www.america-retail.com/static//2017/05/mercadoshops-logo-e1496245091347.png" alt="">
+        <img class="logo-image" src="https://jumpseller.co/images/apps/mercadolibre.jpg" alt="">
+      </header>
+    
+      <main>
+        <div class="main-container">
+
+            <div class="menu-container">
+                
+                <div class="menu-button">
+                    <a [routerLink]='["sale/add"]'>Sales</a>
+                </div>
+                <div class="menu-button">
+                    <a [routerLink]='["inventory"]'>Inventory</a>
+                </div>
+                <div class="menu-button">
+                    <a href="#">Clients</a>
+                </div>
+                <div class="menu-button">
+                    <a href="#">Dashboard</a>
+                </div>
+                
+            </div>
+
+            <router-outlet></router-outlet>
+        </div>
+      </main>
+    
+      <footer>
+        
+      </footer>
+</body>
+</html>
+
+
+
